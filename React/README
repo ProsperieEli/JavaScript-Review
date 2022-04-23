@@ -1,0 +1,12 @@
+# READ ME for React review
+React is a Javascript library for building user interfaces.
+
+All UI are made up of components.
+
+# Components.
+Reusable building blocks used in your UI.
+
+## How is a component built?
+
+Declarative Approach: Define the desired target state and let react figure out the DOM instructions.
+
