@@ -1,0 +1,12 @@
+# A complete overview of the basic and expres features of JavaScript.
+
+## Understanding let and Const.
+
+Two ways to create variables in JavaScript.
+
+<b>let</b>
+Variable values that can be reassigned.
+
+<b>const</b>
+Variable that will never change and cannot be reassigned.
+
