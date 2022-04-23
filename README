@@ -10,3 +10,83 @@ Variable values that can be reassigned.
 <b>const</b>
 Variable that will never change and cannot be reassigned.
 
+## Arrow functions.
+
+<!-- arrow function-->
+Const myFunction = () => {
+    <!-- code here -->
+}
+<!--arrow function with only ONE(1) argument does not need the "()" in the function.-->
+
+## Exports/Imports.
+
+const person ={
+    name:'Max'
+}
+
+export default person --> YOU choose the name.
+
+import person from 'person' --> Name is defined by export.
+
+<!--use default when just exporting one thing from that file and can be renamed once in the imported file -->
+<!--use {} when importing things by it's name/not default.
+i.E export const clean would be import {clean} from ... -->
+
+## Classes.
+
+class person {
+    constructor() {
+        this.name = 'Max'
+    }
+    printMyName() {
+        console.log(this.name);
+    }
+}
+const person = new Person();
+person.printMyName();
+<!--Prints 'Max' -->
+
+## Classes, properties and Methods.
+
+*Properties are like variables attached to classes and objects.
+
+*Methods are like functions attached to classes and objects.
+
+myProperty = 'value' --> replaces the constructor in ES7.
+
+myMethod = () => {...} --> replaces myMethod(){} in ES7
+
+## Spread and Rest Operators.
+
+spread --> used to split up array elements or object properties.
+
+ex: const newArray = [...oldArray,1,1]
+const newObject = {...oldObject, newProp:5}
+
+Rest --> used to merge a list of function arguments into an array.
+
+Ex: function sortArgs(...) {
+    return args.sort()
+}
+
+## Destructuring.
+
+Easily extract array elements or object properties and store them in variables.
+
+Array destructuring: 
+[a,b] = ['Hello','Max']
+
+Object destructuring:
+{name} = {name: 'Max', age: 28}
+
+## Refreshing Array Functions.
+
+const numbers = [1,2,3];
+
+const doubleNumArray = numbers.map((num) =>     {
+return num * 2;
+});
+<!--map affects everything inside the array. That's why 1, 2 and 3 in the original array would be multiplied by 2 and doubled-->
+
+
+
